@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card Design</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f5f5f5;
+            margin: 0;
+        }
+
+        .card {
+            width: 250px;
+            background-color: #d3d3d3;
+            border-radius: 15px;
+            overflow: hidden;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        .card-header {
+            background-color: #8a2be2;
+            height: 80px;
+        }
+
+        .profile-img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: 3px solid white;
+            position: absolute;
+            top: 40px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .card-content {
+            margin-top: 50px;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="card-header"></div>
+        <img class="profile-img" src="image.png" alt="Profile Picture">
+        <div class="card-content">
+            <h3>Anil chauhan</h3>
+            <p>Military General
+                Vishisht Seva Medal in 2011
+                 Sena Medal in 2014
+                   Ati Vishisht Seva Medal in 2015
+                 Uttam Yudh Seva Medal in 2018 
+                 Param Vishisht Seva Medal in 2020.
+
+            </p>
+        </div>
+    </div>
+</body>
+</html>
